@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/vtu26778-spec/aps/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0219-contains-duplicate-ii](https://github.com/vtu26778-spec/aps/tree/master/0219-contains-duplicate-ii) |
 | [0704-binary-search](https://github.com/vtu26778-spec/aps/tree/master/0704-binary-search) |
 | [0977-squares-of-a-sorted-array](https://github.com/vtu26778-spec/aps/tree/master/0977-squares-of-a-sorted-array) |
@@ -38,4 +39,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0704-binary-search](https://github.com/vtu26778-spec/aps/tree/master/0704-binary-search) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/vtu26778-spec/aps/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
