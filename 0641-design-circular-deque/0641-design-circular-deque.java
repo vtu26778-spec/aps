@@ -1,117 +1,53 @@
 class MyCircularDeque {
-    private int[] v;
-    private int front, back, size, capacity;
-
+    private int head, tail, size, n;
+    private final int[] a;
     public MyCircularDeque(int k) {
-        v = new int[k];
-        Arrays.fill(v, -1); // Initialize the deque with -1
-        front = 0;
-        back = 0;
-        size = 0; // Keeps track of the current number of elements
-        capacity = k;
+        a = new int[k];
+        n = a.length;
+        tail = 1;
     }
-
-    public boolean insertFront(int value) {
-        if (isFull()) {
-            return false;
-        }
-
-        // Way - 01
-        if (front == 0) {
-            front = capacity - 1; // Wrap around to the end
-        } else {
-            front--; // Simply decrement front
-        }
-
-        // Way - 02 (Alternative method commented out)
-        // front = (front - 1 + capacity) % capacity;
-
-        v[front] = value;
+    
+    public boolean insertFront(int x) {
+        if (size == n) return false;
+        a[head = ++head % n] = x;
         size++;
         return true;
     }
-
-    public boolean insertLast(int value) {
-        if (isFull()) {
-            return false;
-        }
-
-        v[back] = value;
-
-        // Way - 01
-        if (back == capacity - 1) {
-            back = 0; // Wrap around to the beginning
-        } else {
-            back++; // Simply increment back
-        }
-
-        // Way - 02 (Alternative method commented out)
-        // back = (back + 1) % capacity;
-
+    
+    public boolean insertLast(int x) {
+        if (size == n) return false;
+        a[tail = (--tail + n) % n] = x;
         size++;
         return true;
     }
-
+    
     public boolean deleteFront() {
-        if (isEmpty()) {
-            return false;
-        }
-
-        v[front] = -1;
-
-        // Way - 01
-        if (front == capacity - 1) {
-            front = 0; // Wrap around to the beginning
-        } else {
-            front++; // Simply increment front
-        }
-
-        // Way - 02 (Alternative method commented out)
-        // front = (front + 1) % capacity;
-
+        if (size == 0) return false;
+        head = (--head + n) % n;
         size--;
         return true;
     }
-
+    
     public boolean deleteLast() {
-        if (isEmpty()) {
-            return false;
-        }
-
-        if (back == 0) {
-            back = capacity - 1; // Wrap around to the end
-        } else {
-            back--; // Simply decrement back
-        }
-        v[back] = -1;
-
+        if (size == 0) return false;
+        tail = ++tail % n;
         size--;
         return true;
     }
-
+    
     public int getFront() {
-        if (isEmpty()) {
-            return -1;
-        }
-        return v[front];
+        return size == 0 ? -1 : a[head];
     }
-
+    
     public int getRear() {
-        if (isEmpty()) {
-            return -1;
-        }
-        if (back == 0) {
-            return v[capacity - 1]; // Wrap around to the last valid element
-        } else {
-            return v[back - 1]; // Get the last element
-        }
+        return size == 0 ? -1 : a[tail];
     }
-
+    
     public boolean isEmpty() {
         return size == 0;
     }
-
+    
     public boolean isFull() {
-        return size == capacity;
+        return size == a.length;
     }
 }
