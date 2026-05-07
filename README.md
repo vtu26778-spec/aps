@@ -213,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/vtu26778-spec/aps/tree/master/0102-binary-tree-level-order-traversal) |
 | [0112-path-sum](https://github.com/vtu26778-spec/aps/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/vtu26778-spec/aps/tree/master/0199-binary-tree-right-side-view) |
+| [0547-number-of-provinces](https://github.com/vtu26778-spec/aps/tree/master/0547-number-of-provinces) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/vtu26778-spec/aps/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/vtu26778-spec/aps/tree/master/0994-rotting-oranges) |
 ## Binary Tree
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0230-kth-smallest-element-in-a-bst](https://github.com/vtu26778-spec/aps/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/vtu26778-spec/aps/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vtu26778-spec/aps/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0547-number-of-provinces](https://github.com/vtu26778-spec/aps/tree/master/0547-number-of-provinces) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/vtu26778-spec/aps/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Backtracking
 |  |
@@ -267,9 +269,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph Theory
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/vtu26778-spec/aps/tree/master/0547-number-of-provinces) |
 | [0997-find-the-town-judge](https://github.com/vtu26778-spec/aps/tree/master/0997-find-the-town-judge) |
 ## Matrix
 |  |
 | ------- |
 | [0994-rotting-oranges](https://github.com/vtu26778-spec/aps/tree/master/0994-rotting-oranges) |
+## Union-Find
+|  |
+| ------- |
+| [0547-number-of-provinces](https://github.com/vtu26778-spec/aps/tree/master/0547-number-of-provinces) |
 <!---LeetCode Topics End-->
