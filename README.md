@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0046-permutations](https://github.com/vtu26778-spec/aps/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/vtu26778-spec/aps/tree/master/0049-group-anagrams) |
 | [0078-subsets](https://github.com/vtu26778-spec/aps/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/vtu26778-spec/aps/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -315,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0046-permutations](https://github.com/vtu26778-spec/aps/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/vtu26778-spec/aps/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/vtu26778-spec/aps/tree/master/0113-path-sum-ii) |
 ## Binary Search Tree
