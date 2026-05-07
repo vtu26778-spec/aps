@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/vtu26778-spec/aps/tree/master/0496-next-greater-element-i) |
 | [0622-design-circular-queue](https://github.com/vtu26778-spec/aps/tree/master/0622-design-circular-queue) |
 | [0641-design-circular-deque](https://github.com/vtu26778-spec/aps/tree/master/0641-design-circular-deque) |
+| [0695-max-area-of-island](https://github.com/vtu26778-spec/aps/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/vtu26778-spec/aps/tree/master/0704-binary-search) |
 | [0735-asteroid-collision](https://github.com/vtu26778-spec/aps/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/vtu26778-spec/aps/tree/master/0739-daily-temperatures) |
@@ -214,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/vtu26778-spec/aps/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/vtu26778-spec/aps/tree/master/0199-binary-tree-right-side-view) |
 | [0547-number-of-provinces](https://github.com/vtu26778-spec/aps/tree/master/0547-number-of-provinces) |
+| [0695-max-area-of-island](https://github.com/vtu26778-spec/aps/tree/master/0695-max-area-of-island) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/vtu26778-spec/aps/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/vtu26778-spec/aps/tree/master/0994-rotting-oranges) |
 ## Binary Tree
@@ -247,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/vtu26778-spec/aps/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/vtu26778-spec/aps/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0547-number-of-provinces](https://github.com/vtu26778-spec/aps/tree/master/0547-number-of-provinces) |
+| [0695-max-area-of-island](https://github.com/vtu26778-spec/aps/tree/master/0695-max-area-of-island) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/vtu26778-spec/aps/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Backtracking
 |  |
@@ -274,9 +277,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0695-max-area-of-island](https://github.com/vtu26778-spec/aps/tree/master/0695-max-area-of-island) |
 | [0994-rotting-oranges](https://github.com/vtu26778-spec/aps/tree/master/0994-rotting-oranges) |
 ## Union-Find
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/vtu26778-spec/aps/tree/master/0547-number-of-provinces) |
+| [0695-max-area-of-island](https://github.com/vtu26778-spec/aps/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
